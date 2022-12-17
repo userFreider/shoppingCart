@@ -1,0 +1,23 @@
+
+
+.cartBox{
+    position: relative;
+    padding:  5px 10px;
+    background: #f58c37;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.cartAmount{
+    top: -17px;
+    right: -15px;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
