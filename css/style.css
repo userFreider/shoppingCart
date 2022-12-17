@@ -21,3 +21,34 @@
     color: #fff;
     text-align: center;
 }
+
+
+
+/*price-quantity*/
+.card .price-quantity .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.card{
+    cursor: pointer;
+    box-shadow: 0px 2px 5px #cccc;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+
+
+.fa-star{
+    font-size: 20px;
+    color: rgba(255, 196, 0);
+}
+
+.price-quantity{
+    background: #dbdadacc;
+    border-radius: 5px;
+    padding: 3px;
+
+}
