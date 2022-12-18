@@ -79,9 +79,9 @@ let shopItemData = [{
 },
 {
     id: 'dfgh',
-    name: 'jordan polera white',
+    name: 'Sony playstation 4',
     price: 44990,
-    desc: 'polera casual',
+    desc: ' consola PlayStation',
     img: '/images/img8.jpg'
 },
 ];
