@@ -3,14 +3,14 @@ let shop = document.getElementById('shop');
 let shopItemData = [{
     id: 'dfgh',
     name: 'ropa casual verano',
-    price: 19990,
+    price: 18990,
     desc: 'polera casual',
     img: 'images/img2.jpg'
 },
 {
     id: 'dfgh',
     name: 'jordan polera white',
-    price: 44990,
+    price: 17990,
     desc: 'polera casual',
     img: 'images/img4.jpg'
 },
@@ -24,18 +24,66 @@ let shopItemData = [{
 {
     id: 'dfgh',
     name: 'ropa casual verano',
-    price: 19990,
+    price: 13990,
     desc: 'polera casual',
     img: 'images/img3.jpg'
 },
 {
     id: 'dfgh',
     name: 'jordan polera white',
+    price: 21990,
+    desc: 'polera casual',
+    img: 'images/img5.jpg'
+},
+{
+    id: 'dfgh',
+    name: 'jordan polera white',
     price: 44990,
     desc: 'polera casual',
-    img: 'images/img4.jpg'
+    img: 'images/img7.jpg'
 },
-
+{
+    id: 'dfgh',
+    name: 'Silla Negra/Natural',
+    price: 14990,
+    desc: 'Para que tu decisión sea la más certera',
+    img: '/images/img14.jpg'
+},
+{
+    id: 'dfgh',
+    name: 'Consola Nintendo Switch',
+    price: 419990,
+    desc: 'modelo portátil para llevar',
+    img: '/images/img13.jpg'
+},
+{
+    id: 'dfgh',
+    name: 'Polera Manga Corta',
+    price: 12990,
+    desc: 'Polera Mujer Manga Corta Estampada',
+    img: '/images/img11.jpg'
+},
+{
+    id: 'dfgh',
+    name: 'Smartphone Motorola',
+    price: 44990,
+    desc: 'Sistema Operativo: Android',
+    img: '/images/img9.jpeg'
+},
+{
+    id: 'dfgh',
+    name: 'Monitor Gamer 32 Qhd',
+    price: 44990,
+    desc: 'monitor LG QHD ultra dinamico',
+    img: '/images/img10.jpg'
+},
+{
+    id: 'dfgh',
+    name: 'jordan polera white',
+    price: 44990,
+    desc: 'polera casual',
+    img: '/images/img8.jpg'
+},
 ];
 
 let generateShop = () => {
