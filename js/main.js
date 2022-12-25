@@ -147,6 +147,7 @@ let increment = (id) => {
 
     
     localStorage.setItem("data", JSON.stringify(listaDeProduct));
+    listaDeProduct = listaDeProduct.filter((x) => x.item !== 0);
     console.log(listaDeProduct);
     update(selectedItem.id);
 };
@@ -154,15 +155,19 @@ let decrement = (id) => {
     let selectedItem = id;
     let search = listaDeProduct.find((x) => x.id === selectedItem.id);
 
+
     if(search === undefined) return;
     else if (search.item === 0) return; //detengo el proceso para no obtener -1 en el decremento
     else {
         search.item -= 1;
     }
 
-    localStorage.setItem('data', JSON.stringify(listaDeProduct));
+    update(selectedItem.id);//
+
     //console.log(listaDeProduct);
-    update(selectedItem.id);
+    listaDeProduct = listaDeProduct.filter((x) => x.item !== 0);
+    localStorage.setItem('data', JSON.stringify(listaDeProduct));
+
 };
 
 
